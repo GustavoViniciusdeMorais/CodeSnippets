@@ -1,0 +1,11 @@
+{
+	"trycatch":{
+		"prefix": "trycatch",
+		"body": [
+			"try:",
+			"\tprint();",
+			"except Exception:",
+			"\tprint();"
+		]
+	}
+}
