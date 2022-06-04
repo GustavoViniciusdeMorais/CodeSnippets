@@ -4,8 +4,8 @@
 		"body": [
 			"try:",
 			"\tprint();",
-			"except Exception:",
-			"\tprint();"
+			"except Exception as e:",
+			"\tprint(e);"
 		]
 	}
 }
