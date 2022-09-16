@@ -13,6 +13,20 @@
         ],
         "description": ""
     },
+    "v2fail": {
+        "prefix": "rm2",
+        "body": [
+            "return [",
+            "\t'status'=>'error',",
+            "\t'debug' => [",
+            "\t\t'error'=>\\$e->getMessage(),",
+            "\t\t'file'=>\\$e->getFile(),",
+            "\t\t'line'=>\\$e->getLine(),",
+            "\t\t'stack'=>\\$e->getTrace(),",
+            "\t]",
+            "];"
+        ]
+    },
     "querydb": {
         "prefix": "querydb",
         "body": [
